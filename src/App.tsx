@@ -1,17 +1,26 @@
-import Footer from "./components/Footer"
-import Header from "./components/Header"
-import Section from "./components/Section"
+import { Routes, Route } from "react-router";
+import Home from "./pages/Home";
+import Run from "./pages/Offense/Run";
+import Pass from "./pages/Offense/Pass";
+import Rpo from "./pages/Offense/Rpo";
+import ZoneCoverage from "./pages/Defense/Zone";
+import ManCoverage from "./pages/Defense/Man";
+import Blitz from "./pages/Defense/Blitz";
+
+
 
 function App() {
-
   return (
-    <>
-      <Header title="Domine o Jogo. Estude Cada Jogada." />
-      <Section title="Jogadas Ofensivas" subtitle="Run" subtitle2="Pass" subtitle3="RPO" />
-      <Section title="Jogadas Defensivas" subtitle="Zone" subtitle2="Man Coverage" subtitle3="Blitz" />
-      <Footer about="Sobre" contact="Contato" privacy="Política de Privacidade" />
-    </>
-  )
+    <Routes>
+      <Route index element={<Home />} />
+      <Route path="/run" element={<Run />} />
+      <Route path="/pass" element={<Pass />} />
+      <Route path="/rpo" element={<Rpo />} />
+      <Route path="/zone" element={<ZoneCoverage />} />
+      <Route path="/man" element={<ManCoverage />} />
+      <Route path="/blitz" element={<Blitz />} />
+    </Routes>
+  );
 }
 
-export default App
+export default App;
