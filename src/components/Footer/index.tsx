@@ -9,7 +9,7 @@ interface FooterProps {
 
 const Footer: React.FC<FooterProps> = ({ about, contact, privacy }) => {
     return (
-        <div className="flex flex-col space-y-6 justify-between items-center p-4 bg-black text-white text-xs absolute bottom-0 w-full">
+        <div className="flex flex-col space-y-6 justify-between items-center p-4 bg-black text-white text-xs">
             <div className="flex space-x-4">
                 <a>{about}</a>
                 <a>{contact}</a>

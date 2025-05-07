@@ -1,8 +1,12 @@
-import Header from "../../../components/Header"
+import Footer from "../../../components/Footer";
+import { SecondaryHeader } from "../../../components/Header"
 
 const ManCoverage = () => {
     return (
-        <Header title="Jogadas de Man Coverage" />
+        <>
+            <SecondaryHeader title="Jogadas de Man Coverage" />
+            <Footer about="Sobre" contact="Contato" privacy="Política de Privacidade" />
+        </>
     )
 }
 

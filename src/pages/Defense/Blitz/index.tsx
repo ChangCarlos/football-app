@@ -1,8 +1,12 @@
-import Header from "../../../components/Header"
+import Footer from "../../../components/Footer";
+import { SecondaryHeader } from "../../../components/Header"
 
 const Blitz = () => {
     return (
-        <Header title="Jogadas de Blitz" />
+        <>
+            <SecondaryHeader title="Jogadas de Blitz" />
+            <Footer about="Sobre" contact="Contato" privacy="Política de Privacidade" />
+        </>
     )
 }
 

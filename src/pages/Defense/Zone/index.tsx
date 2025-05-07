@@ -1,8 +1,12 @@
-import Header from "../../../components/Header"
+import Footer from "../../../components/Footer"
+import { SecondaryHeader } from "../../../components/Header"
 
 const ZoneCoverage = () => {
     return (
-        <Header title="Jogadas de Zone Coverage" />
+        <>
+            <SecondaryHeader title="Jogadas de Zone Coverage" />
+            <Footer about="Sobre" contact="Contato" privacy="Política de Privacidade" />
+        </>
     )
 }
 
