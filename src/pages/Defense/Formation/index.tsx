@@ -1,4 +1,4 @@
-interface PersonnelProps {
+interface FormationProps {
     title: string;
     items: {
         url: string;
@@ -7,9 +7,9 @@ interface PersonnelProps {
     }[];
 }
 
-const Personnel: React.FC<PersonnelProps> = ({ title, items }) => {
+const Formation: React.FC<FormationProps> = ({ title, items }) => {
     return (
-        <div className="flex flex-col h-screen items-center p-6">
+        <div className="flex flex-col items-center p-6 h-screen">
             <h2 className="text-2xl font-semibold">{title}</h2>
             <div className="flex flex-wrap mt-4  justify-center items-center ">
                 {items.map((item, index) => (
@@ -24,4 +24,4 @@ const Personnel: React.FC<PersonnelProps> = ({ title, items }) => {
     )
 }
 
-export default Personnel;
+export default Formation;
