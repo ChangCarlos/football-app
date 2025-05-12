@@ -6,31 +6,31 @@ import Personnel from "../Personnel";
 const Run = () => {
     const shotgunPlays = [
         {
-            url: "src/assets/inside-zone.png",
+            url: "/images/inside-zone.png",
             name: "Inside Zone",
             concept: "12 Personnel",
         }
     ];
     const pistolPlays = [
         {
-            url: "src/assets/hb-counter.png",
+            url: "/images/hb-counter.png",
             name: "HB Counter",
             concept: "11 Personnel",
         },
         {
-            url: "src/assets/hb-dive.png",
+            url: "/images/hb-dive.png",
             name: "HB Dive",
             concept: "11 Personnel",
         }
     ];
     const iformPlays = [
         {
-            url: "src/assets/inside-zone-i.png",
+            url: "/images/inside-zone-i.png",
             name: "Inside Zone",
             concept: "21 Personnel",
         },
         {
-            url: "src/assets/iso.png",
+            url: "/images/iso.png",
             name: "Iso",
             concept: "21 Personnel",
         }

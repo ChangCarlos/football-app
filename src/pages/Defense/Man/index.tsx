@@ -5,7 +5,7 @@ import Formation from "../Formation";
 const ManCoverage = () => {
     const plays34 = [
         {
-            url: "src/assets/cover-1-hole.png",
+            url: "/images/cover-1-hole.png",
             name: "Cover 1 Hole",
             concept: "3-4",
         }
@@ -13,7 +13,7 @@ const ManCoverage = () => {
 
     const plays44 = [
         {
-            url: "src/assets/cover-1.png",
+            url: "/images/cover-1.png",
             name: "Cover 1",
             concept: "4-4",
         }

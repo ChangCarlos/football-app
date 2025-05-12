@@ -5,12 +5,12 @@ import Formation from "../Formation";
 const Blitz = () => {
     const plays34 = [
         {
-            url: "src/assets/ss-blitz.png",
+            url: "/images/ss-blitz.png",
             name: "SS Blitz",
             concept: "3-4",
         },
         {
-            url: "src/assets/sting-pinch.png",
+            url: "/images/sting-pinch.png",
             name: "Sting Pinch",
             concept: "3-4",
         }
@@ -18,12 +18,12 @@ const Blitz = () => {
 
     const plays44 = [
         {
-            url: "src/assets/engage-eight.png",
+            url: "/images/engage-eight.png",
             name: "Engage Eight",
             concept: "4-4",
         },
         {
-            url: "src/assets/FS-blitz.png",
+            url: "/images/FS-blitz.png",
             name: "FS Blitz",
             concept: "4-4",
         }

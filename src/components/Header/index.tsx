@@ -13,7 +13,7 @@ export const MainHeader: React.FC<HeaderProps> = ({ title }) => {
 
 
     return (
-        <div className="bg-[url('./assets/bg-header.png')] bg-cover bg-center">
+        <div className="bg-[url('/images/bg-header.png')] bg-cover bg-center">
             <div className="flex justify-end px-6 space-x-2">
                 <Button text="Cadastro" onClick={() => setShowModal('signin')} />
                 <Button text="Entrar" onClick={() => setShowModal('login')} />
@@ -36,7 +36,7 @@ export const SecondaryHeader: React.FC<HeaderProps> = ({ title }) => {
     };
 
     return (
-        <div className="bg-[url('./assets/bg-header.png')] bg-cover flex items-center justify-between p-4">
+        <div className="bg-[url('/images/bg-header.png')] bg-cover flex items-center justify-between p-4">
             <div className="flex space-x-3 items-center md:w-3/5 gap-2">
                 <FaFootballBall size={24} color="white" className="md:size-8"/>
                 <h1 className="text-xl font-bold text-white md:text-3xl">{title}</h1>
