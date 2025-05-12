@@ -6,36 +6,36 @@ import Personnel from "../Personnel";
 const Pass = () => {
     const shotgunPlays = [
         {
-            url: "src/assets/pass/shotgun/quick-slants.png",
+            url: "src/assets/quick-slants.png",
             name: "Quick Slants",
             concept: "12 Personnel",
         },
         {
-            url: "src/assets/pass/shotgun/te-under.png",
+            url: "src/assets/te-under.png",
             name: "TE Under",
             concept: "12 Personnel",
         }
     ];
     const pistolPlays = [
         {
-            url: "src/assets/pass/pistol/spacing.png",
+            url: "src/assets/spacing.png",
             name: "Spacing",
             concept: "11 Personnel",
         },
         {
-            url: "src/assets/pass/pistol/verts.png",
+            url: "src/assets/verts.png",
             name: "Four Verticals",
             concept: "11 Personnel",
         }
     ];
     const iformPlays = [
         {
-            url: "src/assets/pass/iform/mesh.png",
+            url: "src/assets/mesh.png",
             name: "Mesh",
             concept: "21 Personnel",
         },
         {
-            url: "src/assets/pass/iform/quick-slants-i.png",
+            url: "src/assets/quick-slants-i.png",
             name: "Quick Slants",
             concept: "21 Personnel",
         }

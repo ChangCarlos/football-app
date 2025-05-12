@@ -5,12 +5,12 @@ import Formation from "../Formation"
 const ZoneCoverage = () => {
     const plays34 = [
         {
-            url: "src/assets/def/34/zone/cover-3-sky.png",
+            url: "src/assets/cover-3-sky.png",
             name: "Cover 3 Sky",
             concept: "3-4",
         },
         {
-            url: "src/assets/def/34/zone/cover-6.png",
+            url: "src/assets/cover-6.png",
             name: "Cover 6",
             concept: "3-4",
         }
@@ -18,12 +18,12 @@ const ZoneCoverage = () => {
 
     const plays44 = [
         {
-            url: "src/assets/def/44/zone/cover-3.png",
+            url: "src/assets/cover-3.png",
             name: "Cover 3",
             concept: "4-4",
         },
         {
-            url: "src/assets/def/44/zone/cover-3-seam.png",
+            url: "src/assets/cover-3-seam.png",
             name: "Cover 3 Seam",
             concept: "4-4",
         }
