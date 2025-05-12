@@ -3,41 +3,39 @@ import { SecondaryHeader } from "../../../components/Header"
 import Formation from "../Formation"
 
 const ZoneCoverage = () => {
-    const zoneCoverPlays = [
+    const plays34 = [
         {
-            url: "src/assets/cover-zone/cover-3-sky.png",
+            url: "src/assets/def/34/zone/cover-3-sky.png",
             name: "Cover 3 Sky",
-            concept: "Zone Coverage",
+            concept: "3-4",
         },
         {
-            url: "src/assets/cover-zone/cover-3-cloud.png",
-            name: "Cover 3 Cloud",
-            concept: "Zone Coverage",
-        },
-        {
-            url: "src/assets/cover-zone/cover-3-sky.png",
-            name: "Cover 3 Sky",
-            concept: "Zone Coverage",
-        },
-        {
-            url: "src/assets/cover-zone/cover-3-cloud.png",
-            name: "Cover 3 Cloud",
-            concept: "Zone Coverage",
-        },        {
-            url: "src/assets/cover-zone/cover-3-sky.png",
-            name: "Cover 3 Sky",
-            concept: "Zone Coverage",
-        },
-        {
-            url: "src/assets/cover-zone/cover-3-cloud.png",
-            name: "Cover 3 Cloud",
-            concept: "Zone Coverage",
+            url: "src/assets/def/34/zone/cover-6.png",
+            name: "Cover 6",
+            concept: "3-4",
         }
     ]
+
+    const plays44 = [
+        {
+            url: "src/assets/def/44/zone/cover-3.png",
+            name: "Cover 3",
+            concept: "4-4",
+        },
+        {
+            url: "src/assets/def/44/zone/cover-3-seam.png",
+            name: "Cover 3 Seam",
+            concept: "4-4",
+        }
+    ]
+
     return (
         <>
-            <SecondaryHeader title="Jogadas de Zone Coverage" />
-            <Formation title="4-3 Defense" items={zoneCoverPlays} />
+            <SecondaryHeader title="Jogadas de Zone Cover" />
+            <div className="flex flex-col h-screen">
+                <Formation title="3-4 Defense" items={plays34} />
+                <Formation title="4-4 Defense" items={plays44} />
+            </div>
             <Footer about="Sobre" contact="Contato" privacy="Política de Privacidade" />
         </>
     )

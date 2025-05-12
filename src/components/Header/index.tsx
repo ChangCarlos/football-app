@@ -18,8 +18,8 @@ export const MainHeader: React.FC<HeaderProps> = ({ title }) => {
                 <Button text="Cadastro" onClick={() => setShowModal('signin')} />
                 <Button text="Entrar" onClick={() => setShowModal('login')} />
             </div>
-            <div className="flex flex-col w-4/5 p-6">
-                <h1 className="text-3xl font-bold text-white">{title}</h1>
+            <div className="flex flex-col w-3/5 p-6 md:w-3/5 gap-2 lg:w-2/5">
+                <h1 className="text-3xl font-bold text-white md:text-5xl">{title}</h1>
                 <Button text="Explore" />
             </div>
 
@@ -37,9 +37,9 @@ export const SecondaryHeader: React.FC<HeaderProps> = ({ title }) => {
 
     return (
         <div className="bg-[url('./assets/bg-header.png')] bg-cover flex items-center justify-between p-4">
-            <div className="flex space-x-3 items-center">
-                <FaFootballBall size={24} color="white" />
-                <h1 className="text-xl font-bold text-white">{title}</h1>
+            <div className="flex space-x-3 items-center md:w-3/5 gap-2">
+                <FaFootballBall size={24} color="white" className="md:size-8"/>
+                <h1 className="text-xl font-bold text-white md:text-3xl">{title}</h1>
             </div>
             <Button text="Voltar" onClick={returnPage} />
         </div>

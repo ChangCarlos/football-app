@@ -4,43 +4,46 @@ import Personnel from "../Personnel";
 
 
 const Run = () => {
-        const runPlays = [
-            {
-                url: "src/assets/run/counter.png",
-                name: "HB Counter",
-                concept: "Spread",
-            },
-            {
-                url: "src/assets/run/draw.png",
-                name: "HB Draw",
-                concept: "Spread",
-            },
-            {
-                url: "src/assets/run/quick-base.png",
-                name: "45 Quick Base",
-                concept: "Spread",
-            },
-            {
-                url: "src/assets/run/counter.png",
-                name: "HB Counter",
-                concept: "Spread",
-            },
-            {
-                url: "src/assets/run/draw.png",
-                name: "HB Draw",
-                concept: "Spread",
-            },
-            {
-                url: "src/assets/run/quick-base.png",
-                name: "45 Quick Base",
-                concept: "Spread",
-            }
-        ];
+    const shotgunPlays = [
+        {
+            url: "src/assets/run/shotgun/inside-zone.png",
+            name: "Inside Zone",
+            concept: "12 Personnel",
+        }
+    ];
+    const pistolPlays = [
+        {
+            url: "src/assets/run/pistol/hb-counter.png",
+            name: "HB Counter",
+            concept: "11 Personnel",
+        },
+        {
+            url: "src/assets/run/pistol/hb-dive.png",
+            name: "HB Dive",
+            concept: "11 Personnel",
+        }
+    ];
+    const iformPlays = [
+        {
+            url: "src/assets/run/iform/inside-zone-i.png",
+            name: "Inside Zone",
+            concept: "21 Personnel",
+        },
+        {
+            url: "src/assets/run/iform/iso.png",
+            name: "Iso",
+            concept: "21 Personnel",
+        }
+    ];
 
     return (
         <>
             <SecondaryHeader title="Jogadas de Corrida" />
-            <Personnel title="Spread" items={runPlays} />
+            <div className="flex flex-col h-full">
+                <Personnel title="Shotgun" items={shotgunPlays} />
+                <Personnel title="Pistol" items={pistolPlays} />
+                <Personnel title="I-Form" items={iformPlays} />
+            </div>
             <Footer about="Sobre" contact="Contato" privacy="Política de Privacidade" />
         </>
     )

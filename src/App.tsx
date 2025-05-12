@@ -2,7 +2,6 @@ import { Routes, Route } from "react-router";
 import Home from "./pages/Home";
 import Run from "./pages/Offense/Run";
 import Pass from "./pages/Offense/Pass";
-import Rpo from "./pages/Offense/Rpo";
 import ZoneCoverage from "./pages/Defense/Zone";
 import ManCoverage from "./pages/Defense/Man";
 import Blitz from "./pages/Defense/Blitz";
@@ -15,7 +14,6 @@ function App() {
       <Route index element={<Home />} />
       <Route path="/run" element={<Run />} />
       <Route path="/pass" element={<Pass />} />
-      <Route path="/rpo" element={<Rpo />} />
       <Route path="/zone" element={<ZoneCoverage />} />
       <Route path="/man" element={<ManCoverage />} />
       <Route path="/blitz" element={<Blitz />} />

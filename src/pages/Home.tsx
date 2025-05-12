@@ -12,8 +12,7 @@ function Home() {
                     title="Jogadas Ofensivas"
                     items={[
                         { label: "Corrida", path: "/run" },
-                        { label: "Passe", path: "/pass" },
-                        { label: "RPO", path: "/rpo" }
+                        { label: "Passe", path: "/pass" }
                     ]}
                 />
                 <Section
